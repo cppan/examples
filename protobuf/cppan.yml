@@ -1,0 +1,3 @@
+dependencies:
+  pvt.cppan.demo.google.protobuf.protobuf: 3
+  pvt.cppan.demo.google.protobuf.protoc: 3

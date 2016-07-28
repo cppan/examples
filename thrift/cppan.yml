@@ -1,0 +1,4 @@
+# any latest stable (non-branch) version
+dependencies:
+  - pvt.cppan.demo.apache.thrift
+  - pvt.cppan.demo.apache.thrift_compiler

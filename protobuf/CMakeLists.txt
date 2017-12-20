@@ -20,7 +20,7 @@ if (MSVC)
 endif()
 
 #set(CPPAN_BUILD_SHARED_LIBS ON)
-add_subdirectory(cppan)
+add_subdirectory(.cppan)
 
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
@@ -33,4 +33,4 @@ add_custom_command(
 add_executable(main src/main.cpp
     addressbook.pb.cc
 	addressbook.pb.h)
-target_link_libraries(main cppan)
+target_link_libraries(main pvt.cppan.demo.google.protobuf.protobuf)
